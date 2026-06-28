@@ -1,0 +1,200 @@
+﻿{
+  "site": {
+    "title": "Candify — Built for Brands That Stand Out",
+    "description": "We help startups and businesses build strong identities, engaging products, and digital experiences that stand out.",
+    "favicon": "framerusercontent.com/sites/icons/default-favicon-light.v1.png"
+  },
+  "personal": {
+    "name": "Candify",
+    "headline": "Built for\nBrands That\nStand Out",
+    "tagline": "Helping Brands Grow Through Design",
+    "subheadline": "We help startups and businesses build strong identities, engaging products, and digital experiences that stand out.",
+    "avatar": "framerusercontent.com/images/7rZJxVMUWycjyJbNZHVFltVk1RI5be1.jpg",
+    "aboutName": "Joris van Dijk",
+    "aboutRole": "Hanzo Studio, Founder"
+  },
+  "contact": {
+    "email": "joris@hanzo.com",
+    "twitter": "https://twitter.com/candify",
+    "dribbble": "https://dribbble.com/candify",
+    "linkedin": "https://linkedin.com/in/candify",
+    "instagram": "https://instagram.com/candify"
+  },
+  "heroButtons": [
+    { "label": "Start a Project", "href": "#contact", "primary": true }
+  ],
+  "trustedLogos": [
+    { "name": "Stripe", "image": "framerusercontent.com/images/75ILrhKQhUkwU1dH15BUDezAQc65e.png" },
+    { "name": "Raycast", "image": "framerusercontent.com/images/EgbF2rgcHm4Q19cR6VXfj7f5awkc65e.png" },
+    { "name": "Vercel", "image": "framerusercontent.com/images/etglVFVv5e7VnmUVyHsNK3oyIbIc65e.png" },
+    { "name": "Linear", "image": "framerusercontent.com/images/Y3PGv0d0lyAiS8gk3emx3d41fvUc65e.png" },
+    { "name": "Notion", "image": "framerusercontent.com/images/kpYj3BEOGRfBZXfMd4dgKyI0c65e.png" }
+  ],
+  "intro": {
+    "greeting": "Hello!",
+    "text": "We help startups and enterprise to establish an emotional connection between their products and happy engaged customers",
+    "services": [
+      { "icon": "🧭", "label": "Strategy" },
+      { "icon": "🎨", "label": "UI/UX" },
+      { "icon": "⚡", "label": "Prototyping" },
+      { "icon": "✨", "label": "Animation" },
+      { "icon": "🔍", "label": "Research" },
+      { "icon": "📐", "label": "Design systems" }
+    ]
+  },
+  "process": {
+    "sectionTag": "Our Process, Explained",
+    "title": "Here's how it works",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Discover & Strategize",
+        "description": "We dive into your brand, goals, audience, and market to uncover opportunities and define a clear creative direction."
+      },
+      {
+        "number": "2",
+        "title": "Design & Refine",
+        "description": "We transform insights into thoughtful design concepts, refining every detail through feedback and collaboration."
+      },
+      {
+        "number": "3",
+        "title": "Deliver & Launch",
+        "description": "Final assets are prepared and organized for seamless implementation, helping your brand launch with confidence."
+      }
+    ]
+  },
+  "testimonials": [
+    {
+      "quote": "Candify helped us transform a rough idea into a complete brand identity. The strategy, logo, and visual system gave our business a level of professionalism we were missing.",
+      "name": "Papiya Banerjee",
+      "avatar": ""
+    },
+    {
+      "quote": "The explainer video simplified our product better than any sales presentation ever could. Engagement increased immediately.",
+      "name": "Saurabh Mangrulkar",
+      "avatar": "framerusercontent.com/images/7rZJxVMUWycjyJbNZHVFltVk1RI5be1.jpg"
+    }
+  ],
+  "projects": [
+    {
+      "id": "ninzarin",
+      "title": "Ninzarin",
+      "tags": ["portfolio", "sidebar"],
+      "thumbnail": "framerusercontent.com/images/jDVMFOFEkrnqQgKkPhlL5JE2A4ea6.png",
+      "link": "work/ninzarin.html"
+    },
+    {
+      "id": "bravo",
+      "title": "Bravo",
+      "tags": ["UI/UX", "App"],
+      "thumbnail": "framerusercontent.com/images/ISAjHKBwJV6BJzD55lhE8XAFBMdc93.jpg",
+      "link": "work/bravo.html"
+    },
+    {
+      "id": "nitro",
+      "title": "Nitro",
+      "tags": ["Design System", "Web"],
+      "thumbnail": "framerusercontent.com/images/KlMn9Z42SmllgWQXhYSyRGbWwA4ea6.png",
+      "link": "work/nitro.html"
+    },
+    {
+      "id": "fargo",
+      "title": "Fargo",
+      "tags": ["SaaS", "Web"],
+      "thumbnail": "framerusercontent.com/images/PkhLHSzRsQ6i0StYQ50gXuiV11s4ea6.png",
+      "link": "work/fargo.html"
+    }
+  ],
+  "about": {
+    "sectionTag": "Our Projects",
+    "title": "Pushing boundaries since 2011",
+    "bio": "Joris van Dijk is a Dutch designer known for his minimalist, expressive digital work. He helps startups and studios create clean interfaces and strong branding. Based in Utrecht, he blends function with emotion — and often spends his free time cycling or exploring generative art.",
+    "image": "framerusercontent.com/images/7rZJxVMUWycjyJbNZHVFltVk1RI5be1.jpg",
+    "experience": [
+      { "role": "Freelance Practice", "company": "Hanzo Co.", "period": "2011 → Now" },
+      { "role": "Design Lead", "company": "Google", "period": "2024 → Now" },
+      { "role": "Senior Designer", "company": "PayPal", "period": "2019 → 2024" },
+      { "role": "Product Designer", "company": "Meta", "period": "2016 → 2019" }
+    ]
+  },
+  "pricing": {
+    "sectionTag": "Pricing",
+    "title": "Fixed Price, Zero Limits",
+    "plan": {
+      "name": "Monthly",
+      "price": "$7,500",
+      "spotsInfo": "Booking Open — only 2 Spots Left",
+      "cta": "Book Free Discovery Call",
+      "ctaLink": "#contact",
+      "features": [
+        "Unlimited design requests",
+        "Fastest turnaround",
+        "Fixed monthly rate",
+        "Async communication",
+        "Pause anytime"
+      ],
+      "benefits": [
+        "Senior-level quality",
+        "Systems thinking",
+        "Developer-friendly",
+        "Clear process",
+        "On-brand, every time",
+        "Reliable partner",
+        "Fast execution",
+        "Thoughtful feedback",
+        "Smooth handoff"
+      ]
+    },
+    "testimonial": {
+      "quote": "Astrid's minimalist design approach transformed our brand. The simplicity and clarity she brought to our identity made us stand out in a crowded market. Our customers immediately noticed the difference.",
+      "name": "Helena Moreau",
+      "role": "Creative Director at Studio Novo"
+    }
+  },
+  "faq": {
+    "sectionTag": "FAQ",
+    "title": "Your Questions, Answered",
+    "ctaTitle": "Have more questions?",
+    "ctaSubtitle": "Book a free discovery call",
+    "ctaCta": "Book a Discovery Call",
+    "ctaEmail": "joris@hanzo.com",
+    "items": [
+      {
+        "question": "What's the difference between a subscription and a custom project?",
+        "answer": "A subscription gives you ongoing access to design work on a monthly basis. Custom projects are one-time engagements scoped for specific deliverables."
+      },
+      {
+        "question": "How fast is the turnaround?",
+        "answer": "Most requests are completed within 48 hours. More complex projects may take 3-5 days depending on scope."
+      },
+      {
+        "question": "How many requests can I make?",
+        "answer": "Unlimited! You can add as many requests to your queue as needed. We work through them one at a time to ensure quality."
+      },
+      {
+        "question": "What types of design do you handle?",
+        "answer": "We handle brand identity, web design, app design, presentation design, social media assets, and more."
+      },
+      {
+        "question": "What tools do you use?",
+        "answer": "We primarily work in Figma for design, with support for Framer, Webflow, and developer handoff workflows."
+      },
+      {
+        "question": "Can I pause the subscription?",
+        "answer": "Absolutely. You can pause and resume your subscription at any time without losing your spot."
+      },
+      {
+        "question": "Do you offer development too?",
+        "answer": "Yes, we offer front-end development services including React, Next.js, and Webflow builds."
+      }
+    ]
+  },
+  "footer": {
+    "headline": "Let's Connect",
+    "subtext": "Ready to create something exceptional? Reach out to discuss your project, explore possibilities, or simply start a conversation.",
+    "spotTag": "2 spots available",
+    "cta": "Book a free intro call",
+    "ctaLink": "#contact",
+    "copyright": "© Candify Studio, 2025"
+  }
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bravo — Candify</title>
+  <meta name="description" content="A bold and modern website for a creative studio.">
+  <link rel="icon" href="../framerusercontent.com/sites/icons/default-favicon-light.v1.png" media="(prefers-color-scheme: light)">
+  <link rel="icon" href="../framerusercontent.com/sites/icons/default-favicon-dark.v1.png" media="(prefers-color-scheme: dark)">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+  <style>
+    .project-hero { padding: 160px 32px 80px; text-align: center; }
+    .project-hero__title { font-family: 'Instrument Serif', serif; font-size: clamp(3rem, 7vw, 5rem); font-weight: 400; margin-bottom: 12px; }
+    .project-hero__meta { font-size: 0.9rem; opacity: 0.4; margin-bottom: 48px; }
+    .project-hero__desc { font-size: 1.1rem; opacity: 0.6; max-width: 600px; margin: 0 auto 48px; line-height: 1.8; }
+    .project-images { max-width: 1000px; margin: 0 auto; padding: 0 32px 120px; display: grid; gap: 24px; }
+    .project-images img { width: 100%; border-radius: 16px; border: 1px solid rgba(255,255,255,0.06); }
+    .back-link { display: inline-flex; align-items: center; gap: 8px; font-size: 0.85rem; opacity: 0.5; transition: opacity 0.3s; margin-bottom: 40px; }
+    .back-link:hover { opacity: 1; }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <a href="../index.html" class="nav__logo">Candify</a>
+    <a href="../index.html#contact" class="nav__cta">Let's Talk</a>
+  </nav>
+
+  <section class="project-hero">
+    <a href="../index.html#work" class="back-link">← Back to Work</a>
+    <h1 class="project-hero__title">Bravo</h1>
+    <p class="project-hero__meta">Web Design · 2024</p>
+    <p class="project-hero__desc">A bold and modern website for a creative studio, featuring dynamic layouts, smooth animations, and a strong visual identity.</p>
+  </section>
+
+  <div class="project-images">
+    <img src="../framerusercontent.com/images/lNPSlLGqzMoHCKwTCL11I3n084ea6.png" alt="Bravo project" loading="lazy">
+    <img src="../framerusercontent.com/images/lNPSlLGqzMoHCKwTCL11I3n086ad2.png" alt="Bravo details" loading="lazy">
+  </div>
+
+  <script>
+    window.addEventListener('scroll', () => {
+      document.querySelector('.nav').classList.toggle('nav--scrolled', window.scrollY > 80);
+    }, { passive: true });
+  </script>
+</body>
+</html>
