@@ -139,10 +139,14 @@ function renderTestimonials(data) {
     const item = document.createElement('div');
     item.className = 'testimonials__item animate-on-scroll';
     item.innerHTML = `
+      <span class="testimonials__quote-mark">"</span>
       <div class="testimonials__quote">${t.quote}</div>
       <div class="testimonials__author">
         ${t.avatar ? `<img class="testimonials__author-avatar" src="${t.avatar}" alt="${t.name}">` : '<div class="testimonials__author-avatar"></div>'}
-        <span class="testimonials__author-name">${t.name}</span>
+        <div class="testimonials__author-info">
+          <div class="testimonials__author-name">${t.name}</div>
+          <div class="testimonials__author-role">${t.role || 'Founder & CEO'}</div>
+        </div>
       </div>
     `;
     split.appendChild(item);
@@ -156,7 +160,9 @@ function renderWork(data) {
     card.href = project.link;
     card.className = `work__card animate-on-scroll stagger-${(i % 4) + 1}`;
     card.innerHTML = `
-      <img class="work__card-img" src="${project.thumbnail}" alt="${project.title}" loading="lazy">
+      <div class="work__card-img-wrap">
+        <img class="work__card-img" src="${project.thumbnail}" alt="${project.title}" loading="lazy">
+      </div>
       <div class="work__card-info">
         <span class="work__card-title">${project.title}</span>
         <div class="work__card-tags">
